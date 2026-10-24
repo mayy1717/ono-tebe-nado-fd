@@ -137,3 +137,107 @@
     text-align: center;
     color: #fff;
 }
+
+.lots {
+    padding: 180px 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lots__heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+    width: max-content;
+    margin-bottom: 27px;
+    margin-left: 64px;
+}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    margin-left: 24px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.lots__card-list-item {
+    padding: 0;
+    margin: 0;
+    width: 334px;
+    min-height: 596px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card {
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    gap: 272px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    line-height: 1.2;
+    padding: 48px 40px 0 40px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: start;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 0 40px 48px 40px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: start;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    gap: 30px;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    gap: 126px;
+}
+
+.lots__look-more-link {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 4.1px;
+    text-decoration-thickness: 1px;
+    display: block;
+    width: max-content;
+    margin-top: 30px;
+    margin-left: 64px;
+}
