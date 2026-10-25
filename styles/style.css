@@ -52,7 +52,7 @@
 .contacts_address {
     display: block;
     color: #000;
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.35;
@@ -61,7 +61,7 @@
 .contacts_link {
     display: block;
     color: #000;
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.35;
