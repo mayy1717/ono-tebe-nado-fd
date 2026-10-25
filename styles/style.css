@@ -309,3 +309,48 @@
     gap: 24px;
     justify-content: space-between;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 0 50px 82px 50px;
+    margin-top: 186px;
+}
+
+.footer__address {
+    align-self: start;
+}
+
+.footer__menu-list {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    list-style: none;
+    gap: 48px;
+}
+
+.footer__social-link {
+    display: flex;
+    width: 48px;
+    height: 48px;
+}
